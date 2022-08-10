@@ -1,46 +1,59 @@
-# Getting Started with Create React App and Redux
+# Ajaib Test Project App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+For Ajaib Developer Test
 
-## Available Scripts
+### Built With
 
-In the project directory, you can run:
+- [Create React App](https://reactjs.org/).
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [Axios](https://axios-http.com/)
+- [styled-components (for styling)](https://www.npmjs.com/package/styled-components/)
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+These instructions will get you a copy of the project up and running on your local machine
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerequisites
 
-### `npm test`
+Make sure you have installed all of the following prerequisites on your local machine:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Git - [Download & Install Git](https://git-scm.com/downloads). OSX and Linux machines typically have this already installed.
+- Node.js - [Download & Install Node.js](https://nodejs.org/en/download/) and the npm package manager.
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repo
+   ```sh
+   git clone https://github.com/weirdjunkies/ajaib-test.git
+   ```
+2. Move to repo root directory
+   ```sh
+   cd ajaib-test
+   ```
+3. Install NPM packages, this command is similar to `npm install`
+   ```sh
+   npm install
+   ```
+4. Run in Development mode
+   ```sh
+   npm start
+   ```
+5. You can now view **ajaib-test** in the browser by going to [http://localhost:3000](http://localhost:3000)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Search by keyword
 
-### `npm run eject`
+You can try search a movie by fill the searching field and then click icon **Search Button** on the top.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Filter by Gender
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+You can filter by gender too.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Sort by column
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+You can sort the result by clicking the column header.
 
-## Learn More
+## Contact
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+David Wijaya - [+6281322078262] - bikinibottom3112@gmail.com
